@@ -1,0 +1,308 @@
+Exercise 25
+From the following text:
+string = '1 0 0 1 0 1'
+remove spaces using slicing. Then convert the result to decimal notation and print to the console as shown below.
+
+Expected result:
+Number found: 37
+
+Exercise 26
+Using the slicing, reverse the order of the characters in the following text:
+text = 'Python Course'
+Print the result to the console as shown below.
+Expected result:
+esruoC nohtyP
+Exercise 27
+The following variables are given (var1 - empty string, var2 - space, var3 - newline character):
+var1 = ''
+var2 = ' '
+var3 = '\n'
+Print each type of variable on a separate line to the console as shown below.
+Expected result:
+<class 'str'>
+<class 'str'>
+<class 'str'>
+
+Exercise 28
+The following variables are given:
+var1 = None
+var2 = False
+var3 = 'True'
+Print each type of variable on a separate line to the console as shown below.
+Expected result:
+<class 'NoneType'>
+<class 'bool'>
+<class 'str'>
+
+Exercise 29
+Check if the following variable:
+flag = False
+is an instance of the bool class and print the result to the console.
+Expected result:
+True
+
+Exercise 30
+The following text is given:
+text = 'python is a popular programming language.'
+Use the appropriate method to replace the first letter of the text with uppercase. Print the result to the console.
+Expected result:
+Python is a popular programming language.
+
+Exercise 31
+The following text is given:
+text = 'python is a popular programming language.'
+Using the appropriate method count the number of occurrences of the letter 'p' and print the result to the console as shown below.
+Expected result:
+Number of occurrences: 4
+
+Exercise 32
+The following codes are given:
+code1 = 'FVNISJND-XX-2020'
+code2 = 'FVNISJND-XY-2019'
+Using the appropriate method check if the codes end in '2020'. Print the result to the console as shown below.
+Expected result:
+code1: True
+code2: False
+
+Exercise 33
+The following paths are given:
+path1 = 'youtube.com/watch?v=5EhRztVxums'
+path2 = 'google.com/search?q=car'
+Using the appropriate method check if the paths refer to YouTube (e.g. start with 'youtube'). Print the result to the console as shown below.
+Expected result:
+path1: True
+path2: False
+
+Exercise 34
+The following paths are given:
+path1 = (
+    'https://e-smartdata.teachable.com/p/'
+    'sciezka-data-scientist-machine-learning-engineer'
+)
+path2 = (
+    'https://e-smartdata.teachable.com/p/'
+    'sciezka-data-scientist-deep-learning-engineer'
+)
+path3 = (
+    'https://e-smartdata.teachable.com/p/'
+    'sciezka-bi-analyst-data-analyst'
+)
+Using the appropriate method, find the word 'scientist' in the given paths, returning the index for the first letter of the found word. If the word is not in the path, the method should return -1. Print the result to the console as shown below.
+Expected result:
+path1: 49
+path2: 49
+path3: -1
+
+Exercise 35
+The following codes are given:
+code1 = 'FVNISJND-20'
+code2 = 'FVNISJND20'
+Using the appropriate method, check whether the codes consist only of alphanumeric characters (numbers + letters). Print the result to the console as shown below.
+Expected result:
+code1: False
+code2: True
+
+Exercise 36
+The following text is given:
+text = 'Google Colab'
+Using the appropriate method convert all letters to lowercase. Print the result to the console.
+Expected result:
+google colab
+
+Exercise 37
+The following text is given:
+text = 'Google Colab'
+Using the appropriate method convert all letters to uppercase. Print the result to the console.
+Expected result:
+GOOGLE COLAB
+
+Exercise 38
+The following text is given:
+text = '  Google Colab   '
+Using the appropriate method remove whitespace characters around the text. Print the result to the console.
+Expected result:
+Google Colab
+
+Exercise 39
+The following code is given:
+code = 'FVNISJND-XX'
+Using the appropriate method replace the dash with a space. Print the result to the console.
+Expected result:
+FVNISJND XX
+
+Exercise 40
+The following text is given:
+text = '340-23-245-235'
+Using the appropriate method remove all dashes from the text. Print the result to the console.
+Expected result:
+34023245235
+
+Exercise 41
+The following text is given:
+text = 'Open,High,Low,Close'
+Using the appropriate method split the text by comma. Print the result as a list to the console as shown below.
+Expected result:
+['Open', 'High', 'Low', 'Close']
+
+Exercise 42
+The following text is given:
+text = """Python is a general-purpose language.
+Python is popular."""
+Using the appropriate method, split the text into sentences. Print the result as a list to the console.
+Expected result:
+['Python is a general-purpose language.', 'Python is popular.']
+
+Exercise 43
+The following variable is given:
+num = 34
+Using the appropriate method for an object of type str, print the variable num preceded by four zeros to the console as shown below.
+Expected result:
+000034
+
+Exercise 44
+From the given url:
+url = (
+    'https://e-smartdata.teachable.com/'
+    'p/sciezka-data-scientist-machine-learning-engineer'
+)
+extract the slug after the last character '/'. Then replace all dashes with spaces and print the result to the console as shown below.
+Expected result:
+sciezka data scientist machine learning engineer
+
+Exercise 45
+The following set is given:
+subjects = {'mathematics', 'biology'}
+Using the appropriate method add 'english' to this set. In response print subjects set to the console.
+Expected result:
+{'biology', 'mathematics', 'english'}
+Note: Remember that the set is an unordered data structure. You may get a different order of items than the expected result.
+
+Exercise 46
+The following text is given:
+text = 'Programming in python.'
+Follow the next steps:
+1.Change all letters to lowercase.
+2.Delete spaces and period.
+3.Create a set consisting of all letters in the text and assign to letters variable
+Using 4.the appropriate method for sets, remove all vowels from letters set:
+vowels = {'a', 'e', 'i', 'o', 'u'}
+      5.Print the number of items in the letters set as shown below.
+Expected result:
+Number of items: 8
+
+Exercise 47
+In mathematics, the symmetric difference of two sets is the set of elements which are in either of the sets, but not in their intersection.
+Two following sets are given:
+A = {2, 4, 6, 8}
+B = {4, 10}
+Using the appropriate method, extract the symmetrical difference of sets A and B and print the result to the console as shown below.
+Expected result:
+Symmetric difference: {2, 6, 8, 10}
+
+Exercise 48
+We have two sets of customer IDs:
+ad1_id = {'001', '002', '003'}
+ad2_id = {'002', '003', '007'}
+Each set stores the id of the customers who made the purchase based on the specific ad. We have two ads. Each customer can use the offer only twice in campaign. Choose the ID of the customers to whom you can send another ad (or ids that only appeared once in both sets).
+Expected result:
+Selected ID: { '007', '001'}
+Note: Remember that the set is an unordered data structure. You may get a different order of items than the expected result. You don't have to worry about it.
+
+
+Exercise 49
+Two customer ID sets are given. The first one tells you whether a person clicked on the banner ad. Second, whether the person purchased the product:
+is_clicked = {'9001', '9002', '9005'}
+is_bought = {'9002', '9004', '9005'}
+Return the ID of those customers who clicked on the ad and bought the product.
+Expected result:
+Customer ID: { '9002', '9005'}
+Note: Remember that the set is an unordered data structure. You may get a different order of items than the expected result. You don't have to worry about it.
+
+
+Exercise 50
+Two following tuples are given:
+dji1 = ('AAPL.US', 'IBM.US', 'MSFT.US')
+dji2 = ('HD.US', 'GS.US', 'NKE.US')
+Combine these tuples into one as shown below and print the result to the console.
+Expected result:
+('AAPL.US', 'IBM.US', 'MSFT.US', 'HD.US', 'GS.US', 'NKE.US')
+
+
+Exercise 51
+The following tuples are given:
+dji1 = ('AAPL.US', 'IBM.US', 'MSFT.US')
+dji2 = ('HD.US', 'GS.US', 'NKE.US')
+Nest these tuples into one tuple as shown below and print the result to the console.
+Expected result:
+(('AAPL.US', 'IBM.US', 'MSFT.US'), ('HD.US', 'GS.US', 'NKE.US'))
+
+
+Exercise 52
+Tuples are immutable. The following tuple is given:
+members = (('Kate', 23), ('Tom', 19))
+Insert a tuple ('John', 26) between Kate and Tom as shown below. Print the result to the console.
+Tip: You have to create a new tuple.
+Expected result:
+(('Kate', 23), ('John', 26), ('Tom', 19))
+
+Exercise 53
+The following tuple is given:
+default = ('YES', 'NO', 'NO', 'YES', 'NO')
+Using the appropriate method return the number of occurrences of the string 'YES' and print the result to the console as shown below.
+Expected result:
+Number of occurrences: 2
+
+Exercise 54
+Sort the given tuple (from A to Z):
+names = ('Monica', 'Tom', 'John', 'Michael')
+Print the sorted tuple to the console as shown below.
+Expected result:
+('John', 'Michael', 'Monica', 'Tom')
+
+Exercise 55
+The following tuple is given (name, age):
+info = (('Monica', 19), ('Tom', 21), ('John', 18))
+Sort this tuple:
+ascending by age
+descending by age
+And print the result to the console as shown below.
+Expected result:
+Ascending: (('John', 18), ('Monica', 19), ('Tom', 21))
+Descending: (('Tom', 21), ('Monica', 19), ('John', 18))
+
+Exercise 56
+The following tuple is given:
+stocks = (('Apple Inc', ('AAPL.US', 310)), ('Microsoft Corp', ('MSFT.US', 184)))
+Extract a ticker for Apple and print the result to the console.
+Expected result:
+AAPL.US
+
+Exercise 57
+To the given list:
+cities = ['Los Angeles', 'New York', 'Chicago']
+append the city: 'Houston' and print the list to the console.
+Expected result:
+['Los Angeles', 'New York', 'Chicago', 'Houston']
+
+Exercise 58
+The following list is given:
+idx = ['001', '002', '001', '003', '001']
+Using the appropriate method count the occurrences of '001'. Print the result to the console as shown below.
+Expected result:
+Number of occurrences: 3
+
+
+Exercise 59
+The following text is given:
+text = 'Python programming'
+Standardize the text (replace uppercase letters with lowercase). Then create a list of unique characters in the text. Remove the space from this list and sort from a to z. After all print the list to the console.
+Tip: You can use a set to generate unique characters.
+Expected result:
+['a', 'g', 'h', 'i', 'm', 'n', 'o', 'p', 'r', 't', 'y']
+
+Exercise 60
+The following list is given:
+filenames = ['view.jpg', 'bear.jpg', 'ball.png']
+Add the file 'phone.jpg' to this list at the beginning. Then delete the file 'ball.png'. In response, print the filenames list to the console.
+Expected result:
+['phone.jpg', 'view.jpg', 'bear.jpg']
