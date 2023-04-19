@@ -1,0 +1,433 @@
+Exercise 61
+The following list represents order ids for a given day:
+day1 = ['3984', '9042', '4829', '2380']
+Using the appropriate method, extend this list to the next day:
+day2 = ['4231', '5234', '1345', '2455']
+Print the result to the console.
+Expected result:
+['3984', '9042', '4829', '2380', '4231', '5234', '1345', '2455']
+
+
+Exercise 62
+The following tuple is given:
+techs = ('python', 'java', 'sql', 'aws')
+Sort this tuple from a to z and print it to the console.
+Tip: Tuples are immutable. You have to create a new one.
+Expected result:
+('aws', 'java', 'python', 'sql')
+
+
+Exercise 63
+The following list is given:
+hashtags = ['summer', 'time', 'vibes']
+Using the appropriate method, combine the elements of the list with the '#' character. Also add this sign to the beginning of the text and print the result to the console as shown below.
+Expected result:
+'#summer#time#vibes'
+
+
+Exercise 64
+Create a dictionary from the following pairs (key, value):
+'USA': 'Washington'
+'Germany': 'Berlin'
+'Austria': 'Vienna'
+and print it to the console.
+Expected result:
+{'USA': 'Washington', 'Germany': 'Berlin', 'Austria': 'Vienna'}
+
+
+Exercise 65
+The following dictionary is given:
+capitals = {
+    'USA': 'Washington',
+    'Germany': 'Berlin',
+    'Austria': 'Vienna'
+}
+Use the appropriate method to extract all keys from the capitals dictionary and print to the console.
+Expected result:
+dict_keys(['USA', 'Germany', 'Austria'])
+
+
+Exercise 66
+The following dictionary is given:
+capitals = {
+    'USA': 'Washington',
+    'Germany': 'Berlin',
+    'Austria': 'Vienna'
+}
+Use the appropriate method to extract all values from the capitals dictionary and print to the console.
+Expected result:
+dict_values(['Washington', 'Berlin', 'Vienna'])
+
+
+Exercise 67
+The following dictionary is given:
+capitals = {
+    'USA': 'Washington',
+    'Germany': 'Berlin',
+    'Austria': 'Vienna'
+}
+Using the appropriate method, extract the list containing tuple objects (key, value) from the capitals dictionary and print to the console as shown below.
+Expected result:
+dict_items([('USA', 'Washington'), ('Germany', 'Berlin'), ('Austria', 'Vienna')])
+
+
+Exercise 68
+The following dictionary is given:
+capitals = {
+    'USA': 'Washington',
+    'Germany': 'Berlin',
+    'Austria': 'Vienna'
+}
+Using the dict.get() method, extract the value for the key 'Austria' and print it to the console.
+Expected result:
+Vienna
+
+
+Exercise 69
+The following dictionary is given:
+stocks = {
+    'MSFT.US': {'Microsoft Corp': 184},
+    'AAPL.US': {'Apple Inc': 310},
+    'MMM.US': {'3M Co': 148}
+}
+Extract the value for the key 'AAPL.US' and print it to the console.
+Expected result:
+{'Apple Inc': 310}
+
+
+Exercise 70
+The following dictionary is given:
+stocks = {
+    'MSFT.US': {'Microsoft Corp': 184},
+    'AAPL.US': {'Apple Inc': 310},
+    'MMM.US': {'3M Co': 148}
+}
+Get the price for Microsoft (value for the 'Microsoft Corp' key) and print it to the console.
+Expected result:
+184
+
+
+Exercise 71
+The following dictionary is given:
+stocks = {
+    'MSFT.US': {'Microsoft Corp': 184},
+    'AAPL.US': {'Apple Inc': 310},
+    'MMM.US': {'3M Co': 148}
+}
+Update the price for Microsoft to 190 and print the value for the 'MSFT.US' key to the console.
+Expected result:
+{'Microsoft Corp': 190}
+
+
+Exercise 72
+The following dictionary is given:
+stocks = {
+    'MSFT.US': {'Microsoft Corp': 184},
+    'AAPL.US': {'Apple Inc': 310},
+    'MMM.US': {'3M Co': 148}
+}
+Add a fourth pair to this dictionary with the key 'V.US' and the value: {'Visa Inc': 185}. Print the values of the stocks dictionary to the console.
+Expected result:
+dict_values([{'Microsoft Corp': 184}, {'Apple Inc': 310}, {'3M Co': 148}, {'Visa Inc': 185}])
+
+
+Exercise 73
+A list of tickers from the Dow Jones index is given:
+tickers = [
+    'AAPL.US',
+    'AXP.US',
+    'BA.US',
+    'CAT.US',
+    'CSCO.US',
+    'CVX.US',
+    'DIS.US',
+    'DOW.US',
+    'GS.US',
+    'HD.US',
+    'IBM.US',
+    'INTC.US',
+]
+Transform this list into a list of two-element tuple objects (index, ticker) and print it to the console.
+Formatted result for better view:
+[(0, 'AAPL.US'),
+ (1, 'AXP.US'),
+ (2, 'BA.US'),
+ (3, 'CAT.US'),
+ (4, 'CSCO.US'),
+ (5, 'CVX.US'),
+ (6, 'DIS.US'),
+ (7, 'DOW.US'),
+ (8, 'GS.US'),
+ (9, 'HD.US'),
+ (10, 'IBM.US'),
+ (11, 'INTC.US')]
+Expected result:
+[(0, 'AAPL.US'), (1, 'AXP.US'), (2, 'BA.US'), (3, 'CAT.US'), (4, 'CSCO.US'), (5, 'CVX.US'), (6, 'DIS.US'), (7, 'DOW.US'), (8, 'GS.US'), (9, 'HD.US'), (10, 'IBM.US'), (11, 'INTC.US')]
+
+
+Exercise 74
+A list of tickers from the Dow Jones index is given:
+tickers = [
+    'AAPL.US',
+    'AXP.US',
+    'BA.US',
+    'CAT.US',
+    'CSCO.US',
+    'CVX.US',
+    'DIS.US',
+    'DOW.US',
+    'GS.US',
+    'HD.US',
+    'IBM.US',
+    'INTC.US',
+]
+Transform this list into a dictionary (index, ticker) and print it to the console.
+Formatted result for better view:
+{0: 'AAPL.US',
+ 1: 'AXP.US',
+ 2: 'BA.US',
+ 3: 'CAT.US',
+ 4: 'CSCO.US',
+ 5: 'CVX.US',
+ 6: 'DIS.US',
+ 7: 'DOW.US',
+ 8: 'GS.US',
+ 9: 'HD.US',
+ 10: 'IBM.US',
+ 11: 'INTC.US'}
+Expected result:
+{0: 'AAPL.US', 1: 'AXP.US', 2: 'BA.US', 3: 'CAT.US', 4: 'CSCO.US', 5: 'CVX.US', 6: 'DIS.US', 7: 'DOW.US', 8: 'GS.US', 9: 'HD.US', 10: 'IBM.US', 11: 'INTC.US'}
+
+
+Exercise 75
+The following dictionary is given:
+project_ids = {
+    '01': 'open',
+    '03': 'in progress',
+    '05': 'in progress',
+    '04': 'completed'
+}
+Extract a list of unique values (sorted alphabetically) from the project_ids dictionary and print it to the console.
+Expected result:
+['completed', 'in progress', 'open']
+
+
+Exercise 76
+The following dictionary is given:
+stats = {'site': 'e-smartdata.org', 'traffic': 100, 'type': 'organic'}
+Delete the 'traffic' key pair from this dictionary and print it to the console.
+Expected result:
+{'site': 'e-smartdata.org', 'type': 'organic'}
+
+
+Exercise 77
+The following dictionary is given:
+users = {'001': 'Mark', '002': 'Monica', '003': 'Jacob'}
+Try to print value for key '004'.
+In this exercise use the dict.get() method. When the key is not in the dictionary set default value to the string 'indefinite'.
+Expected result:
+'indefinite'
+
+
+Exercise 78
+The following filename is given:
+filename = '01012020_sales.xlsx'
+Check if the file has the 'xlsx' extension. Print to the console 'YES' if true, 'NO' if false.
+Expected result:
+YES
+
+
+Exercise 79
+The following code is given:
+code = 'DSVNDOICSN'
+Check if the code variable has only uppercase letters. If so, print 'YES' to the console.
+Expected result:
+YES
+
+
+Exercise 80
+The following variable is given:
+number = 1.0
+Test whether the variable is an instance of the built-in class int. Print 'YES' if true, 'NO' if false.
+Expected result:
+NO
+
+
+Exercise 81
+The following password is given:
+password = 'cskdnjcasa#!'
+Check if the password has at least 11 characters.
+If so, print 'Password correct', otherwise 'Password too short'.
+Expected result:
+Password correct
+
+
+Exercise 82
+The following password is given:
+password = 'cskdnjcasa#!'
+Check if the password has at least 11 characters and contains the special character '!'.
+If so, print 'Password correct', otherwise 'Password incorrect'.
+Expected result:
+Password correct
+
+
+Exercise 83
+The following list is given:
+project_ids = ['02134', '24253']
+Check if the following project id:
+project_id = '02135'
+is in the project_ids list. If not, add this project_id to the list and print this list to the console.
+Expected result:
+['02134', '24253', '02135']
+
+
+
+Exercise 84
+The following dictionary is given:
+project_ids = {
+    '01': 'open',
+    '02': 'new',
+    '03': 'in progress',
+    '04': 'completed'
+}
+Using the conditional statement, check if the project status with id = '02' is set to 'new'. If so, change its status to 'open' and print the dictionary to the console.
+Expected result:
+{'01': 'open', '02': 'open', '03': 'in progress', '04': 'completed'}
+
+
+Exercise 85
+Write a program that checks if the given item:
+item = '001'
+is in the list:
+items = ['001', '000', '003', '005', '006']
+If so, remove this item from the list and print this list to the console.
+Expected result:
+['000', '003', '005', '006']
+
+
+Exercise 86
+Write a program that finds all two-digit numbers divisible by 11 (use a for loop). Print the result to the console as comma-separated values as shown below.
+Expected result:
+11,22,33,44,55,66,77,88,99
+
+
+Exercise 87
+Write a program that finds all two-digit numbers divisible by 11 and indivisible by 3 (use a for loop). Print the result to the console as comma-separated values as shown below.
+Expected result:
+11,22,44,55,77,88
+
+
+Exercise 88
+The following list of numbers is given:
+items = [1, 3, 4, 5, 6, 9, 10, 17, 23, 24]
+Write a program that removes odd numbers and returns the remaining ones. Print the result to the console.
+Expected results:
+[4, 6, 10, 24]
+
+
+Exercise 89
+The following list is given:
+items = [1, 5, 3, 2, 2, 4, 2, 4]
+Write a program that removes duplicates from the list (the order must be kept) and print the list to the console.
+Expected result:
+[1, 5, 3, 2, 4]
+
+
+Exercise 90
+The following text is given:
+text = 'Python is a very popular programming language'
+Write a program which extracts exactly the first four words as a list. Standardize each word, i.e. replace uppercase letters with lowercase. Present the result in a list and print to the console as shown below.
+Expected result:
+['python', 'is', 'a', 'very']
+
+
+Exercise 91
+Write a program that returns a list of values above the given threshold = 0.5 from the following list:
+probabilities = [0.21, 0.91, 0.34, 0.55, 0.76, 0.02]
+Expected result:
+[0.91, 0.55, 0.76]
+
+
+Exercise 92
+Consider the problem of binary classification in machine learning. The machine learning model returns the probability of belonging to the class. If it's less than 0.5, the sample is assigned to class 0, otherwise to class 1.
+A list of probabilities from the machine learning model is given:
+probabilities = [0.21, 0.91, 0.34, 0.55, 0.76, 0.02]
+Write a program that assigns class 0 for values less than 0.5 and 1 for values greater than or equal to 0.5. Print the result to the console as shown below.
+Expected result:
+[0, 1, 0, 1, 1, 0]
+
+
+Exercise 93
+Write a program that creates a histogram as a dictionary of the following values:
+items = ['x', 'y', 'z', 'y', 'x', 'y', 'y', 'z', 'x']
+In response print histogram to the console.
+Expected result:
+{'x': 3, 'y': 4, 'z': 2}
+
+
+Exercise 94
+The following text is given:
+text = """Python is powerful... and fast
+plays well with others
+runs everywhere
+is friendly & easy to learn
+is Open
+These are some of the reasons people who use Python would rather not use anything else"""
+Create a list of words from the given text. Then standardize this text (change uppercase letters to lowercase, remove punctuation marks). Extract words longer than six characters and print the result to the console.
+Expected result:
+['powerful', 'everywhere', 'friendly', 'reasons', 'anything']
+
+
+Exercise 95
+The list of stock indexes is given:
+indexes = [
+    'BOVESPA',
+    'DOW JONES COMP',
+    'DOW JONES INDU',
+    'DOW JONES TRANS',
+    'DOW JONES UTIL',
+    'IPC',
+    'IPSA',
+    'MERVAL',
+    'NASDAQ COMP',
+    'NASDAQ100',
+    'S&P500',
+    'S&P/TSX COMP',
+]
+Iterate through the indexes list and print to the console only those indexes containing 'DOW' or 'S&P'.
+Expected result:
+DOW JONES COMP
+DOW JONES INDU
+DOW JONES TRANS
+DOW JONES UTIL
+S&P500
+S&P/TSX COMP
+
+
+Exercise 96
+A dictionary of companies from the WIG.GAMES index is given. The key is the 3-letter company ticker and value - close price:
+gaming = {
+    '11B': 362.5,
+    'CDR': 297.0,
+    'CIG': 0.85,
+    'PLW': 318.0,
+    'TEN': 300.0
+}
+Iterate through this dictionary and print the tickers of those companies where closing price is greater than 100.00 PLN.
+Expected result:
+11B
+CDR
+PLW
+TEN
+
+
+Exercise 97
+A list of names entered by users into the system is given below (without validation process):
+names = ['Jack', 'Leon', 'Alice', '32-3c', 'Bob']
+Iterate through the names list and check if each name is correct (contains only letters). If so, print to the console following message: f'Hello {name}!' otherwise do nothing.
+Tip: Use the str.isalpha() method.
+Expected result:
+Hello Jack!
+Hello Leon!
+Hello Alice!
+Hello Bob!
